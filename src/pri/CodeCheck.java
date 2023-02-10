@@ -312,9 +312,13 @@ public class CodeCheck {
         // String dateTag = EpochTool.convertToString( EpochTool.getNowEpoch(), EpochTool.Format.ISO8601);
 
 		//String root= "D:\\GIT\\SRV65EE\\SRV";
-		String root= "D:\\GIT\\SRV65_LINUX";
-
-		String progFolder = root + "\\prog";
+		//String root= "D:\\GIT\\SRV65_LINUX";
+		//String root= "D:\\GIT\\SRV-Oracle19";
+		//String progFolder = root + "\\prog";
+		
+		String root= "D:\\GIT\\SAM66_DEV";
+		String progFolder = root;
+		
 		String logfile   = root + "\\codeCheck." + EpochTool.getNowEpoch() + ".log";
 
 		BufferedWriter writer = new BufferedWriter(new FileWriter(logfile));
